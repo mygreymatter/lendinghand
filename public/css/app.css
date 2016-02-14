@@ -1,0 +1,27 @@
+.glyphicon {}
+.glyphicon-phone-alt {
+    margin-right: 1%;
+}
+.list-group-separator {
+    width: 570px;
+}
+.carousel-inner img {
+    width: 100%;
+}
+
+/**/
+
+[ticker].active {
+    height: auto;
+}
+[ticker] .minus-margin-top {
+    margin-top: -30px;
+}
+[ticker] li {
+    height: 60px;
+}
+ul.ticker {
+    list-style-type: none;
+    padding-left: 0px;
+    width: 98%;
+}

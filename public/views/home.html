@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="../images/107.jpg" alt="Chania">
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="../images/112.jpg" alt="Chania">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="../images/32.jpg" alt="Flower">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="../images/61.jpg" alt="Flower">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <ul ticker class="ticker">
+                <li ng-repeat="item in myTickerItems" class="item-{{$index}}">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <strong>{{item.title}}</strong> - {{item.copy | limitTo: 55}}
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+</div>

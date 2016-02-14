@@ -1,0 +1,13 @@
+{
+    "name": "LendingHand",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "description": "Jesus Foundation",
+    "dependencies": {
+        "express": "^4.13.4",
+        "nodemon": "^1.8.1"
+    }
+}
