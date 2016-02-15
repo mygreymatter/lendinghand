@@ -1,8 +1,9 @@
 (function () {
     angular.module('Home', ['simpleAngularTicker'])
-        .controller('HomeController', ['$scope', '$state',
-            function ($scope, $state) {
-                $scope.name = "lengind home";
+        .controller('HomeController', ['$scope', '$state', '$http',
+            function ($scope, $state, $http) {
+                $scope.name = "Deadpool";
+
                 $scope.myTickerItems = [
                     {
                         title: 'New Year Celebrations',

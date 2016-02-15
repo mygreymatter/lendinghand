@@ -20,7 +20,8 @@
 [ticker] li {
     height: 60px;
 }
-ul.ticker {
+ul.ticker,
+ul.no-dots {
     list-style-type: none;
     padding-left: 0px;
     width: 98%;

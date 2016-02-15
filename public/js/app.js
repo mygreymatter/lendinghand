@@ -1,5 +1,5 @@
 (function () {
-    angular.module('LendingHandApp', ['ui.router', 'Navigator', 'Home', 'Contact'])
+    angular.module('LendingHandApp', ['ui.router', 'Navigator', 'Home', 'Contact', 'Events'])
         .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             function ($stateProvider, $urlRouterProvider, $locationProvider) {
                 $stateProvider
@@ -18,7 +18,7 @@
                     }).state('Events', {
                         url: '/events',
                         templateUrl: '../views/events.html',
-                        controller: ''
+                        controller: 'EventsController'
                     }).state('Donate', {
                         url: '/donate',
                         templateUrl: '../views/donate.html',
