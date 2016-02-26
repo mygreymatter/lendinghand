@@ -18,7 +18,22 @@
                     }).state('Events', {
                         url: '/events',
                         templateUrl: '../views/events.html',
-                        controller: 'EventsController'
+                        controller: 'EventsController',
+                        resolve: {
+                            events: function (EventFactory) {
+                                return EventFactory.getEvents();
+                            }
+                        }
+                    }).state('View', {
+                        url: '/view/:id',
+                        templateUrl: '../views/eventview.html',
+                        controller: 'EventViewController',
+                        resolve: {
+                            event: function (EventFactory, $stateParams) {
+                                console.log('Resolving View');
+                                return EventFactory.getEvent($stateParams.id);
+                            }
+                        }
                     }).state('Donate', {
                         url: '/donate',
                         templateUrl: '../views/donate.html',

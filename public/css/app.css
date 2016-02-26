@@ -26,3 +26,13 @@ ul.no-dots {
     padding-left: 0px;
     width: 98%;
 }
+li>a:hover,
+img.event-view:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+img.event-view {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
