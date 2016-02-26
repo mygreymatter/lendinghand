@@ -1,12 +1,17 @@
 <h1>Events</h1>
 
-<ul ng-repeat="event in events" class="no-dots">
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <strong>{{event.name}}</strong>
+<ul class="no-dots">
+    <li ng-click="showEvent(event)" ng-repeat="event in events" class="eventloop">
+        <a>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <strong>{{event.name}}</strong>
+                </div>
             </div>
-        </div>
+        </a>
+
     </li>
 
 </ul>
+
+<ui-view></ui-view>

@@ -1,13 +1,25 @@
 [{
-    "name": "New Year Celebrations"
+    "name": "New Year Celebrations",
+    "id": "101",
+    "images_count": 4
 }, {
-    "name": "Valentine's Day Celebrations"
+    "name": "Valentine's Day Celebrations",
+    "id": "102",
+    "images_count": 4
 }, {
-    "name": "Rekha's Birthday"
+    "name": "Rekha's Birthday",
+    "id": "103",
+    "images_count": 4
 }, {
-    "name": "Ikya's Birthday"
+    "name": "Ikya's Birthday",
+    "id": "104",
+    "images_count": 4
 }, {
-    "name": "Inmate's Birthday"
+    "name": "Inmate's Birthday",
+    "id": "105",
+    "images_count": 4
 }, {
-    "name": "School Students Visit"
+    "name": "School Students Visit",
+    "id": "106",
+    "images_count": 4
 }]
